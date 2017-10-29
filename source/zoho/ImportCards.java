@@ -26,7 +26,6 @@ public class ImportCards
 	{
 		try
 		{
-			//Test
 			String filePath = "/Users/thilak-4083/Downloads/Cards.csv";
 			String gateway = "stripe";
 			CsvReader csvReader = new CsvReader(new FileReader(filePath));
